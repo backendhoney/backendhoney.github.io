@@ -1,103 +1,53 @@
 <div class="container">
   <div class="user-details">
-    <h3> Featured Projects </h3>
+    <h1> My Projects </h1><br><br>
   </div>
   <div class="row user-projects">
     <div class="six columns images">
-      <img alt="Platzigram_Django" src="{{ "/assets/img/Platzigram_Django.png" | prepend: site.baseurl }}" />
+      <img alt="Artshop" style="margin-left:30px;" src="{{ "/assets/img/pro/artshop.png" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
-      <h5> Platzigram </h5>
+      <h5> ART # - 무명작가 플랫폼 애플리케이션 </h5>
       <ul>
-        <li>Python, Django, Google Cloud, HTML, JS, Bootstrap4</li>
+        <li>Android, Java, XML, MySQL, Flask, PyMySQL, Retrofit, AWS EC2, Ubuntu, Restful API Server</li>
       </ul>
-      <p>Platzigram is a basic clone of instagram allocate on Google Cloud</p>
-      <a class="project-link" href="https://github.com/WillArevalo/Platzigram_2018_Django">Check it out</a>
-      <a class="project-link" href="https://platzigram-225022.appspot.com">Web App</a>
+      <p>공정한 평가를 위한 그림 커뮤니티 안드로이드 애플리케이션</p>
+      <p>&#8226; <span class="project_bold">자바</span> 언어로 개발된 고급 그림 커뮤니티 애플리케이션<br>&#8226; <span class="project_bold">Amazon Web Service</span> 인스턴스를 생성한 후, <span class="project_bold">Flask 라이브러리</span>로 파이썬 서버 구축<br>&#8226; 우분투 리눅스에 <span class="project_bold">MySQL</span>을 넣고 PyMySQL로 플라스크와 연동해서 
+      <span class="project_bold">RestFul API 서버</span>에 적재
+        <br>&#8226; 안드로이드에서는 <span class="project_bold">Retrofit</span>을 이용하여 HTTP 기반 통신으로 서버 값을 받아 온다.
+         <br>&#8226; 앱바, 탭 레이아웃, 뷰페이저, 리사이클러뷰, 코디네이터 레이아웃, 스태거드 그리드 레이아웃, 팝업 메뉴
+         <br>&#8226; UI는 사용자가 한눈에 알아볼 수 있도록 가능한 직관적으로 설계했고 터치 빈도가 높은 위젯의 경우 아래쪽에 둠
+        </p><p><small>본 프로젝트는 소프트웨어 공학의 Plan-driven, 폭포수 모델을 따라서 개발이 진행되었습니다.</small></p>
+      <a class="project-link" href="https://github.com/violetbeach/artshop" target="_blank">Android<br>Repo & Readme</a>
+      <a class="project-link" href="https://github.com/violetbeach/server" target="_blank">Server<br>Repo & Readme</a>
     </div>
   </div>
+
   <div class="row user-projects">
     <div class="six columns">
-      <img alt="Adversary Attack" src="{{ "/assets/img/AdvAtk.png" | prepend: site.baseurl }}" />
+      <img alt="jiokcheol" src="{{ "/assets/img/pro/jiokcheol.png" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
-      <h5> Adversary Attack </h5>
+      <h5> GoodBye Jiokcheol </h5>
       <ul>
-        <li>Neural Networks, Colaboratory, GPU, Vision, TensorFlow, Keras</li>
+        <li>Arduino, C++, Wifi, Webserver, HTML, HTTP, TCP/IP</li>
       </ul>
-      <p>Making a neural network for Vision fail through adversary attack, Imperceptible to the human eye</p>
-      <p>¡Nothing is what it seems!</p>
-      <p><small>This image does not reflect the results obtained</small></p>
-      <a class="project-link" href="https://colab.research.google.com/drive/1Zy5Lg1EicoVu-jcUBUZAkK8Phfp11p_k">Web App</a>
-      <a class="project-link" href="https://willarevalo.github.io/machine%20learning/2018/07/07/adversary-attack-nn.html">See Post</a>
+      <p>아두이노를 활용한 지하철 혼잡도 알림 서비스</p>
+      <p>
+        &#8226; 아두이노의 C++로 제작된 지하철 인원 적정 배치를 위한 시스템<br>
+        &#8226; 아두이노의 ESP8266<span class="project_bold"> Wifi </span>모듈으로 와이파이 네트워크와 연결<br>
+        &#8226; WizFi250 라이브러리를 이용해 <span class="project_bold">TCP</span>를 통해 웹서버와 연결 후 HTTP명령으로 <span class="project_bold">HTML 웹페이지</span> 제작<br>
+        &#8226; 초음파 센서로 승객 밀도를 측정, 무게 센서로 승객 중량을 측정<br>        
+        &#8226; 측정한 값들을 연산 후 조건문을 통해 level로 치환해서 <span class="project_bold">HTTP 통신</span>을 이용해 웹서버에 전송
+  <br>&#8226; 웹페이지에서 수신한 수치를 시각적으로 보여줌<br>
+        </p>
+      <p><small>본 프로젝트는 스마트 도시를 만들기 위한 아이디어로 시연을 목적에 두고 제작되었습니다.</small></p>
+      <a class="project-link" href="https://github.com/violetbeach/goodbyejiokcheol" target="_blank">Repo & Readme</a>
     </div>
+  </div><br>
+  <div class="user-details">
   </div>
-  <div class="row user-projects">
-    <div class="six columns images">
-      <img alt="WebLinearRegresion" src="{{ "/assets/img/dinamicLinearRegresion.png" | prepend: site.baseurl }}" />
-    </div>
-    <div class="six columns">
-      <h5> Dinamic Linear Regresion </h5>
-      <ul>
-        <li> Machine Learning, HTML, JS, Bootstrap4</li>
-      </ul>
-      <p>This web application predict how much is the cost of a house with a little database and a basic algorithm of ML</p>
-      <a class="project-link" href="https://github.com/WillArevalo/Intro-Machine-Learning">Check it out</a>
-      <a class="project-link" href="https://willarevalo.github.io/Intro-Machine-Learning/">Web App</a>
-    </div>
-  </div>
-  <div class="row user-projects">
-    <div class="six columns">
-      <img alt="Wardo Ecommerce" src="{{ "/assets/img/Wardo.png" | prepend: site.baseurl }}" />
-    </div>
-    <div class="six columns">
-      <h5> Wardo Ecommerce </h5>
-      <ul>
-        <li> Django, Bootstrap4, Stripe, Responsive</li>
-      </ul>
-      <p>This web application is a Ecommerce with prodcuts, multilevel, and panel for publish, with Stripe pay tech</p>
-      <a class="project-link" href="https://github.com/WillArevalo/Wardo">Check it out</a>
-      <a class="project-link" href="https://willarevalo.pythonanywhere.com/">Web App</a>
-    </div>
-  </div>
-  <div class="row user-projects">
-    <div class="six columns images">
-      <img alt="CMS with rails" src="{{ "/assets/img/IS.png" | prepend: site.baseurl }}" />
-    </div>
-    <div class="six columns">
-      <h5> Innovation Student(CMS) </h5>
-      <ul>
-        <li> Rails5, Bootstrap4, TinyMCE, Ruby, HTML</li>
-      </ul>
-      <p>Innovation Student is a Content Manager System(CMS). This is intended for students who want to learn in practice html and css, through posts and how to structure them.</p>
-      <a class="project-link" href="https://github.com/WillArevalo/Project-S2/tree/master/student">Check it out</a>
-    </div>
-  </div>
-  <div class="row user-projects">
-    <div class="six columns">
-      <img alt="Notevares_apk" src="{{ "/assets/img/fullscreen-activity.png" | prepend: site.baseurl }}" />
-    </div>
-    <div class="six columns">
-      <h5> No Te Vares </h5>
-      <ul>
-        <li> Java, Design, Permissions, JS, AndroidStudio</li>
-      </ul>
-      <p>"No te vares" is the application(apk) where you can have a map and geo-referencing to find your sites of interest thanks to open street map, responsive design</p>
-      <a class="project-link" href="https://github.com/WillArevalo/Notevares_apk">Check it out</a>
-    </div>
-  </div>
-  <div class="row user-projects">
-    <div class="six columns images">
-      <img alt="PlatziVideo React" src="{{ "/assets/img/PlatziVideo.jpg" | prepend: site.baseurl }}" />
-    </div>
-    <div class="six columns">
-      <h5> PlatziVideo </h5>
-      <ul>
-        <li>REACT, JSX, JS, HTML, CSS</li>
-      </ul>
-      <p>PlatziVideo is a web app for videos, similar to Youtube.</p>
-      <a class="project-link" href="https://github.com/WillArevalo/Curso-de-react">Check it out</a>
-      <a class="project-link" href="https://willarevalo.github.io/Curso-de-react">Web App</a>
-    </div>
-  </div>
+  <element class="upbt">
+  <a class="footer-up" href="#about" data-scroll><i class="icon fa fa-angle-double-up" aria-hidden="true"></i></a>
+  </element>
 </div>
